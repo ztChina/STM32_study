@@ -1,0 +1,16 @@
+.\oled.o: OLED.c
+.\oled.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\oled.o: .\STM32F10xFWLib\inc\stm32f10x_it.h
+.\oled.o: .\STM32F10xFWLib\inc\stm32f10x_lib.h
+.\oled.o: .\STM32F10xFWLib\inc\stm32f10x_map.h
+.\oled.o: ..\CORTEX_STM32F103_Keil\stm32f10x_conf.h
+.\oled.o: .\STM32F10xFWLib\inc\stm32f10x_type.h
+.\oled.o: .\STM32F10xFWLib\inc\cortexm3_macro.h
+.\oled.o: .\STM32F10xFWLib\inc\stm32f10x_exti.h
+.\oled.o: .\STM32F10xFWLib\inc\stm32f10x_gpio.h
+.\oled.o: .\STM32F10xFWLib\inc\stm32f10x_nvic.h
+.\oled.o: .\STM32F10xFWLib\inc\stm32f10x_rcc.h
+.\oled.o: .\STM32F10xFWLib\inc\stm32f10x_spi.h
+.\oled.o: .\STM32F10xFWLib\inc\stm32f10x_systick.h
+.\oled.o: .\STM32F10xFWLib\inc\stm32f10x_usart.h
+.\oled.o: OLED_Font.h

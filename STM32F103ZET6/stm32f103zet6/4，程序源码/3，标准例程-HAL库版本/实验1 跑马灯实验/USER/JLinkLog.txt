@@ -1,0 +1,155 @@
+T5250 000:176.219   SEGGER J-Link V6.54c Log File
+T5250 000:176.432   DLL Compiled: Nov  7 2019 17:01:02
+T5250 000:176.441   Logging started @ 2024-09-06 08:31
+T5250 000:176.452 JLINK_SetWarnOutHandler(...)
+T5250 000:176.462 - 0.014ms
+T5250 000:176.477 JLINK_OpenEx(...)
+T5250 000:179.720   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T5250 000:194.672   Hardware: V9.40
+T5250 000:194.700   S/N: 69401838
+T5250 000:194.708   OEM: SEGGER
+T5250 000:194.715   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T5250 000:197.032   TELNET listener socket opened on port 19021
+T5250 000:216.452   WEBSRV Starting webserver
+T5250 000:216.628   WEBSRV Webserver running on local port 19080
+T5250 000:216.637 - 40.161ms returns "O.K."
+T5250 000:216.665 JLINK_GetEmuCaps()
+T5250 000:216.671 - 0.007ms returns 0xB9FF7BBF
+T5250 000:216.677 JLINK_TIF_GetAvailable(...)
+T5250 000:217.170 - 0.504ms
+T5250 000:217.186 JLINK_SetErrorOutHandler(...)
+T5250 000:217.190 - 0.005ms
+T5250 000:217.210 JLINK_ExecCommand("ProjectFile = "E:\Study\Files\stm32f103zet6\4，程序源码\6，ATKNCR(数字字母手写识别库)\3，标准例程-HAL库版本\实验1 跑马灯实验\USER\JLinkSettings.ini"", ...). 
+T5250 000:218.413   Ref file found at: E:\Study\MCU\MDK\ARM\Segger\JLinkDevices.ref
+T5250 000:218.467   XML referenced by ref file: E:\Tools\SEGGER\JLink\JLinkDevices.xml
+T5250 000:219.630   E:\Tools\SEGGER\JLink\JLinkDevices.xml evaluated successfully.
+T5250 000:243.763 - 26.567ms returns 0x00
+T5250 000:243.813 JLINK_ExecCommand("Device = STM32F103ZE", ...). 
+T5250 000:244.148   Device "STM32F103ZE" selected.
+T5250 000:244.364 - 0.541ms returns 0x00
+T5250 000:244.372 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T5250 000:244.379 - 0.004ms returns 0x01
+T5250 000:244.384 JLINK_GetHardwareVersion()
+T5250 000:244.388 - 0.005ms returns 0x16F30
+T5250 000:244.397 JLINK_GetDLLVersion()  returns 65403
+T5250 000:244.403 JLINK_GetFirmwareString(...)
+T5250 000:244.407 - 0.005ms
+T5250 000:244.414 JLINK_GetDLLVersion()  returns 65403
+T5250 000:244.418 JLINK_GetCompileDateTime()
+T5250 000:244.421 - 0.004ms
+T5250 000:244.426 JLINK_GetFirmwareString(...)
+T5250 000:244.429 - 0.004ms
+T5250 000:244.434 JLINK_GetHardwareVersion()
+T5250 000:244.437 - 0.004ms returns 0x16F30
+T5250 000:244.445 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T5250 000:246.801 - 2.363ms returns 0x00
+T5250 000:246.821 JLINK_SetSpeed(5000)
+T5250 000:247.167 - 0.349ms
+T5250 000:247.427 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T5250 000:247.433 - 0.007ms returns JLINKARM_RESET_TYPE_NORMAL
+T5250 000:247.437 JLINK_Reset()
+T5250 000:249.835   TotalIRLen = 9, IRPrint = 0x0011
+T5250 000:250.619   JTAG chain detection found 2 devices:
+T5250 000:250.625    #0 Id: 0x3BA00477, IRLen: 04, CoreSight JTAG-DP
+T5250 000:250.630    #1 Id: 0x06414041, IRLen: 05, STM32 Boundary Scan
+T5250 000:263.967   TotalIRLen = 9, IRPrint = 0x0011
+T5250 000:264.930   JTAG chain detection found 2 devices:
+T5250 000:264.942    #0 Id: 0x3BA00477, IRLen: 04, CoreSight JTAG-DP
+T5250 000:264.947    #1 Id: 0x06414041, IRLen: 05, STM32 Boundary Scan
+T5250 000:264.970   Scanning AP map to find all available APs
+T5250 000:267.354   AP[1]: Stopped AP scan as end of AP map has been reached
+T5250 000:267.363   AP[0]: AHB-AP (IDR: 0x14770011)
+T5250 000:267.368   Iterating through AP map to find AHB-AP to use
+T5250 000:271.085   AP[0]: Core found
+T5250 000:271.096   AP[0]: AHB-AP ROM base: 0xE00FF000
+T5250 000:273.234   CPUID register: 0x411FC231. Implementer code: 0x41 (ARM)
+T5250 000:273.245   Found Cortex-M3 r1p1, Little endian.
+T5250 000:274.306    -- Max. mem block: 0x00010E08
+T5250 000:274.454    -- CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T5250 000:276.248    -- CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T5250 000:276.780    -- CPU_ReadMem(4 bytes @ 0xE0002000)
+T5250 000:277.336   FPUnit: 6 code (BP) slots and 2 literal slots
+T5250 000:277.354    -- CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T5250 000:277.968    -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T5250 000:278.406    -- CPU_ReadMem(4 bytes @ 0xE0001000)
+T5250 000:279.385    -- CPU_WriteMem(4 bytes @ 0xE0001000)
+T5250 000:279.989    -- CPU_ReadMem(4 bytes @ 0xE000ED88)
+T5250 000:280.509    -- CPU_WriteMem(4 bytes @ 0xE000ED88)
+T5250 000:281.022    -- CPU_ReadMem(4 bytes @ 0xE000ED88)
+T5250 000:281.577    -- CPU_WriteMem(4 bytes @ 0xE000ED88)
+T5250 000:282.123   CoreSight components:
+T5250 000:282.156   ROMTbl[0] @ E00FF000
+T5250 000:282.166    -- CPU_ReadMem(16 bytes @ 0xE00FF000)
+T5250 000:282.769    -- CPU_ReadMem(16 bytes @ 0xE000EFF0)
+T5250 000:283.408    -- CPU_ReadMem(16 bytes @ 0xE000EFE0)
+T5250 000:284.061   ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 001BB000 SCS
+T5250 000:284.070    -- CPU_ReadMem(16 bytes @ 0xE0001FF0)
+T5250 000:284.682    -- CPU_ReadMem(16 bytes @ 0xE0001FE0)
+T5250 000:285.352   ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 001BB002 DWT
+T5250 000:285.363    -- CPU_ReadMem(16 bytes @ 0xE0002FF0)
+T5250 000:286.025    -- CPU_ReadMem(16 bytes @ 0xE0002FE0)
+T5250 000:286.594   ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 000BB003 FPB
+T5250 000:286.606    -- CPU_ReadMem(16 bytes @ 0xE0000FF0)
+T5250 000:287.228    -- CPU_ReadMem(16 bytes @ 0xE0000FE0)
+T5250 000:288.042   ROMTbl[0][3]: E0000000, CID: B105E00D, PID: 001BB001 ITM
+T5250 000:288.057    -- CPU_ReadMem(16 bytes @ 0xE00FF010)
+T5250 000:288.980    -- CPU_ReadMem(16 bytes @ 0xE0040FF0)
+T5250 000:289.786    -- CPU_ReadMem(16 bytes @ 0xE0040FE0)
+T5250 000:290.528   ROMTbl[0][4]: E0040000, CID: B105900D, PID: 001BB923 TPIU-Lite
+T5250 000:290.540    -- CPU_ReadMem(16 bytes @ 0xE0041FF0)
+T5250 000:291.249    -- CPU_ReadMem(16 bytes @ 0xE0041FE0)
+T5250 000:292.071   ROMTbl[0][5]: E0041000, CID: B105900D, PID: 101BB924 ETM-M3
+T5250 000:292.171   CPU is running
+T5250 000:292.190    -- CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T5250 000:292.768   CPU is running
+T5250 000:292.783    -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T5250 000:293.349   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T5250 000:293.365   Reset: Reset device via AIRCR.SYSRESETREQ.
+T5250 000:293.376   CPU is running
+T5250 000:293.387    -- CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T5250 000:345.497    -- CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T5250 000:346.475    -- CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T5250 000:347.396   CPU is running
+T5250 000:347.424    -- CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T5250 000:348.284   CPU is running
+T5250 000:348.313    -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T5250 000:355.198    -- CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T5250 000:358.862    -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T5250 000:359.449    -- CPU_WriteMem(4 bytes @ 0xE0001028)
+T5250 000:359.991    -- CPU_WriteMem(4 bytes @ 0xE0001038)
+T5250 000:360.705    -- CPU_WriteMem(4 bytes @ 0xE0001048)
+T5250 000:361.382    -- CPU_WriteMem(4 bytes @ 0xE0001058)
+T5250 000:361.947    -- CPU_WriteMem(4 bytes @ 0xE0002000)
+T5250 000:362.440    -- CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T5250 000:362.996    -- CPU_ReadMem(4 bytes @ 0xE0001000)
+T5250 000:363.673 - 116.243ms
+T5250 000:363.704 JLINK_GetIdData(pIdData)
+T5250 000:363.715   pIdData->ScanLen=9
+T5250 000:363.727   
+T5250 000:363.735   pIdData->NumDevices=2
+T5250 000:363.747   
+T5250 000:363.755   pIdData->aId[0]=0x3BA00477
+T5250 000:363.767   
+T5250 000:363.776   pIdData->aIrRead[0]=0
+T5250 000:363.788   
+T5250 000:363.797   pIdData->aScanLen[0]=0
+T5250 000:363.809   
+T5250 000:363.817   pIdData->aScanRead[0]=0
+T5250 000:363.830   
+T5250 000:363.838 - 0.138ms
+T5250 000:363.927 JLINK_JTAG_GetDeviceID(DeviceIndex = 0)
+T5250 000:363.938 - 0.015ms returns 0x3BA00477
+T5250 000:363.950 JLINK_JTAG_GetDeviceInfo(DeviceIndex = 0)
+T5250 000:363.959 - 0.013ms returns 0x00
+T5250 000:363.970 JLINK_JTAG_GetDeviceID(DeviceIndex = 1)
+T5250 000:363.979 - 0.013ms returns 0x6414041
+T5250 000:363.990 JLINK_JTAG_GetDeviceInfo(DeviceIndex = 1)
+T5250 000:363.998 - 0.013ms returns 0x00
+T5250 000:373.482 JLINK_GetFirmwareString(...)
+T5250 000:373.500 - 0.022ms
+T5250 011:927.631 JLINK_Close()
+T5250 011:928.225    -- CPU_ReadMem(4 bytes @ 0xE0001000)
+T5250 011:928.925    -- CPU_WriteMem(4 bytes @ 0xE0001004)
+T5250 011:937.706 - 10.086ms
+T5250 011:937.720   
+T5250 011:937.723   Closed

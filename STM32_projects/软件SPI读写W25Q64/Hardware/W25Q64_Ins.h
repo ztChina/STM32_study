@@ -1,0 +1,36 @@
+//W25Q64 对应的指令集宏定义
+
+#ifndef __W25Q64_INS_H
+#define __W25Q64_INS_H
+
+#define W25Q64_WRITE_ENABLE							0x06		//写使能指令
+#define W25Q64_WRITE_DISABLE						0x04		//写失能指令
+#define W25Q64_READ_STATUS_REGISTER_1				0x05	//读状态寄存器1指令，最后一位是Busy标志位
+#define W25Q64_READ_STATUS_REGISTER_2				0x35
+#define W25Q64_WRITE_STATUS_REGISTER				0x01
+#define W25Q64_PAGE_PROGRAM							0x02			//页编程指令
+#define W25Q64_QUAD_PAGE_PROGRAM					0x32
+#define W25Q64_BLOCK_ERASE_64KB						0xD8
+#define W25Q64_BLOCK_ERASE_32KB						0x52
+#define W25Q64_SECTOR_ERASE_4KB						0x20		//选择擦除4KB指令
+#define W25Q64_CHIP_ERASE							0xC7
+#define W25Q64_ERASE_SUSPEND						0x75
+#define W25Q64_ERASE_RESUME							0x7A
+#define W25Q64_POWER_DOWN							0xB9
+#define W25Q64_HIGH_PERFORMANCE_MODE				0xA3
+#define W25Q64_CONTINUOUS_READ_MODE_RESET			0xFF
+#define W25Q64_RELEASE_POWER_DOWN_HPM_DEVICE_ID		0xAB
+#define W25Q64_MANUFACTURER_DEVICE_ID				0x90	
+#define W25Q64_READ_UNIQUE_ID						0x4B
+#define W25Q64_JEDEC_ID								0x9F	//获得设备ID命令
+#define W25Q64_READ_DATA							0x03
+#define W25Q64_FAST_READ							0x0B
+#define W25Q64_FAST_READ_DUAL_OUTPUT				0x3B
+#define W25Q64_FAST_READ_DUAL_IO					0xBB
+#define W25Q64_FAST_READ_QUAD_OUTPUT				0x6B
+#define W25Q64_FAST_READ_QUAD_IO					0xEB
+#define W25Q64_OCTAL_WORD_READ_QUAD_IO				0xE3
+
+#define W25Q64_DUMMY_BYTE							0xFF	//用来作为交换数据时的随意发送值
+
+#endif
